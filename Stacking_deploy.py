@@ -3,10 +3,12 @@ import joblib
 import numpy as np
 import pandas as pd
 
-st.title("Breast Phyllodes Tumor Benign/Non-benign Predictor")
+st.title("Prediction of Phyllodes Tumor Based on Preoperative Features")
 
 st.markdown("""
     This model predicts whether a breast phyllodes tumor is **benign** or **non-benign** based on preoperative clinical features.
+
+    This model is developed on preopertive clinical features of breast phyllodes tumor and does NOT work on other breast tumor types.
 
     Please enter the patient data in the input boxes below.
 
